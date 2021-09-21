@@ -35,7 +35,7 @@ Here are some ideas to get you started:
 - [ ] Build a Kernel 
 - [ ] Shell editor
 
-#### Contributed repositories
+#### Contributed to
 - [react](https://github.com/facebook/react)
 - [ssh-chat](https://github.com/shazow/ssh-chat)
 - [owncast-admin](https://github.com/owncast/owncast-admin)
