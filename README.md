@@ -14,8 +14,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-![Github Stats](https://github-readme-stats.vercel.app/api?username=sytranvn&show_icons=true&title_color=000&icon_color=000&text_color=000)
-
 #### My stack
 
 ![Linux](https://img.shields.io/static/v1?style=square&color=0F0F0F&logoColor=FFFFCC&logo=linux&label=&message=Linux)
@@ -27,13 +25,6 @@ Here are some ideas to get you started:
 ![Python](https://img.shields.io/static/v1?style=square&color=0F0F0F&logoColor=FFFFCC&logo=python&label=&message=Python)
 ![Go](https://img.shields.io/static/v1?style=square&color=0F0F0F&logoColor=FFFFCC&logo=go&label=&message=Go)
 ![Git](https://img.shields.io/static/v1?style=square&color=0F0F0F&logoColor=FFFFCC&logo=git&label=&message=Git)
-
-#### My DIY list
-- [x] [MVC framework](https://gitlab.com/sytranvn/NakedMVC)
-- [x] [Vlox Interpreter](https://github.com/sytranvn/vlox)
-- [ ] Web server
-- [ ] Build a Kernel 
-- [ ] Shell editor
 
 #### Pushed a few lines of code to
 - [react](https://github.com/facebook/react)
