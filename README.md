@@ -26,6 +26,7 @@ Here are some ideas to get you started:
 ### Know a little bit of. 
 ![C++](https://img.shields.io/static/v1?style=square&color=0F0F0F&logoColor=FFFFCC&logo=c&label=&message=C%2FC%2B%2B)
 ![Go](https://img.shields.io/static/v1?style=square&color=0F0F0F&logoColor=FFFFCC&logo=go&label=&message=Go)
+![Go](https://img.shields.io/static/v1?style=square&color=0F0F0F&logoColor=FFFFCC&logo=java&label=&message=Java)
 
 #### Pushed a few lines of code to  
 - [react](https://github.com/facebook/react)
