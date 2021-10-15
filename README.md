@@ -30,3 +30,4 @@ Here are some ideas to get you started:
 - [react](https://github.com/facebook/react)
 - [ssh-chat](https://github.com/shazow/ssh-chat)
 - [owncast-admin](https://github.com/owncast/owncast-admin)
+- [chrome-extension-cli](https://github.com/dutiyesh/chrome-extension-cli)
