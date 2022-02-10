@@ -1,11 +1,4 @@
-+++
-title = "About"
-date = "2022-02-05"
-aliases = ["about-us", "about-sytran", "contact"]
-author = "Sy Tran"
-+++
-
-### About me,
+## About me,
 - 😄 Pronouns: ʃi:
 - 🌐 Visit my [blog](https://sytranvn.dev/posts)
 - 🌱 I’m currently learning V8, and also ML, and flute
@@ -21,7 +14,7 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - ⚡ Fun fact: ...
 -->
-### Know a little bit of
+## I know a little bit of
 ![Linux](https://img.shields.io/static/v1?style=square&color=0F0F0F&logoColor=FFFFCC&logo=linux&label=&message=Linux)
 ![JS](https://img.shields.io/static/v1?style=square&color=0F0F0F&logoColor=FFFFCC&logo=javascript&label=&message=Javascript)
 ![Python](https://img.shields.io/static/v1?style=square&color=0F0F0F&logoColor=FFFFCC&logo=python&label=&message=Python)
@@ -36,7 +29,7 @@ and a little bit of
 ![Octave](https://img.shields.io/static/v1?style=square&color=0F0F0F&logoColor=FFFFCC&logo=octave&label=&message=Octave)
 ![Docker](https://img.shields.io/static/v1?style=square&color=0F0F0F&logoColor=FFFFCC&logo=docker&label=&message=Docker)
 
-#### Pushed a few lines of code to
+## I pushed a few lines of code to
 - [react](https://github.com/facebook/react)
     - [4e5d7fa](https://github.com/facebook/react/commit/4e5d7faf54b38ebfc7a2dcadbd09a25d6f330ac0)
 - [ssh-chat](https://github.com/shazow/ssh-chat)
