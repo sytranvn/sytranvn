@@ -37,3 +37,33 @@ and a little bit of
     - [2e6456c](https://github.com/owncast/owncast-admin/commit/2e6456c1c02ee8ed49ec6f31039dfede86c6e447)
 - [chrome-extension-cli](https://github.com/dutiyesh/chrome-extension-cli)
     - [e2df8d5](https://github.com/dutiyesh/chrome-extension-cli/commit/e2df8d5d0541a9815a1ccd8554d5fad0e373389f)
+
+```shell
+# oh-my-zrc
+export EDITOR='vim'                                                                
+                                                                                   
+setopt HIST_IGNORE_ALL_DUPS                                                        
+setopt HIST_IGNORE_SPACE                                                           
+                                                                                   
+RPROMPT='$(date +%T)'                                                              
+eval "$(/opt/homebrew/bin/brew shellenv)"                                          
+                                                                                   
+export NVM_DIR="$HOME/.nvm"                                                        
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm                  
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+                                                                                   
+eval "$(direnv hook zsh)"                                                          
+if [ -f ~/.git-prompt.sh ]; then                                                   
+    source ~/.git-prompt.sh                                                        
+    export GIT_PS1_SHOWDIRTYSTATE=true                                             
+    export GIT_PS1_SHOWUNTRACKEDFILES=true                                         
+    export GIT_PS1_SHOWUPSTREAM="auto"                                             
+    PROMPT='%{$fg[red]%}%m%{$reset_color%}:%{$fg[green]%}%c%{$reset_color%}$(__git_ps1) %(!.#.$) '
+fi                                                                                 
+# aliases                                                                          
+alias zrc='vim ~/.zshrc'                                                           
+alias zrl='source ~/.zshrc'                                                        
+alias ll='ls -lahG'                                                                
+                                                                                   
+path+=(~/.bin)      
+```
