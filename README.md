@@ -38,8 +38,12 @@ and a little bit of
 - [chrome-extension-cli](https://github.com/dutiyesh/chrome-extension-cli)
     - [e2df8d5](https://github.com/dutiyesh/chrome-extension-cli/commit/e2df8d5d0541a9815a1ccd8554d5fad0e373389f)
 
+## Oh my .rcs
+### .zshrc
+<details>
+  <summary>Click to expand!</summary>
+    
 ```shell
-# oh-my-zrc
 export EDITOR='vim'                                                                
                                                                                    
 setopt HIST_IGNORE_ALL_DUPS                                                        
@@ -67,3 +71,61 @@ alias ll='ls -lahG'
                                                                                    
 path+=(~/.bin)      
 ```
+    
+</details>
+
+### .vimrc
+<details>
+  <summary>Click to expand!</summary>  
+
+```vim
+set nocompatible          " get rid of Vi compatibility mode. SET FIRST!        
+filetype plugin indent on " filetype detection[ON] plugin[ON] indent[ON]        
+set t_Co=256              " enable 256-color mode.                              
+syntax enable             " enable syntax highlighting (previously syntax on).  
+colorscheme desert        " set colorscheme                                     
+set number                " show line numbers                                   
+set laststatus=2          " last window always has a statusline                 
+filetype indent on        " activates indenting for files                       
+set nohlsearch            " Don't continue to highlight searched phrases.       
+set incsearch             " But do highlight as you type your search.           
+set ignorecase            " Make searches case-insensitive.                     
+set ruler                 " Always show info along bottom.                         
+set autoindent            " auto-indent 
+set softtabstop=4         " unify                                                  
+set shiftwidth=4          " indent/outdent by 4 columns                            
+set shiftround            " always indent/outdent to the nearest tabstop           
+set expandtab             " use spaces instead of tabs                             
+set smarttab              " use tabs at the start of a line, spaces elsewhere   
+autocmd Filetype javascript setlocal ts=2 sw=2 sts=0 expandtab                     
+set nowrap                " don't wrap text                                        
+" make backspaces more powerfull                                                   
+set backspace=indent,eol,start                                                     
+                                                                                   
+set showcmd             " show (partial) command in status line                    
+set noswapfile                                                                     
+                                                                                   
+set splitright          " show split window to the right                           
+                                                                                   
+set nu                                                                             
+                                                                                   
+set list                                                                           
+set listchars=tab:┆\                                                               
+                                                                                   
+set colorcolumn=80                                                                 
+                                                                                   
+call plug#begin()                                                                  
+" Multiple Plug commands can be written in a single line using | separators     
+Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'                             
+                                                                                
+" post install (yarn install | npm install) then load plugin only for editing supported files
+Plug 'prettier/vim-prettier', {                                                 
+  \ 'do': 'yarn install --frozen-lockfile --production',                        
+  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'svelte', 'yaml', 'html'] }
+                                                                                
+Plug 'ludovicchabant/vim-gutentags'                                             
+                                                                                
+call plug#end()   
+```
+   
+</details>
