@@ -17,6 +17,8 @@ Here are some ideas to get you started:
     
 [<image align="center" src="https://user-images.githubusercontent.com/13009812/229432609-75bd32f1-64d6-4402-85e8-72e09ae3a57c.png" width="100" height="100" />](https://www.credly.com/badges/0c9bc108-ac27-413c-ab63-fad6d632d7bf/public_url)
 [<image align="center" src="https://github.com/sytranvn/sytranvn/assets/13009812/fff33622-3bc0-49e5-907d-23c86d4b8efa" width="100" height="100" />](https://www.credly.com/badges/423037b1-f841-42dc-9dda-a96b306bd8fa/public_url)
+[<image align="center" src="https://github.com/user-attachments/assets/a21b8dec-7447-41f6-b2a8-1491cd2e2b7a" width="100" height="100" />](https://www.credly.com/badges/185ca2c3-ba5d-495b-9f0c-64c1f9ebf3cc/public_url)
+
 </div>
 
 ## I fixed typos and pushed a few lines of code to random repositories
