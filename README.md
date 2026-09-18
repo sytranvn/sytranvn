@@ -2,3 +2,5 @@
 
 ## About me
 Basically an Free Open Source Software enthusiasm. Visit my [🌐 blog](https://sytranvn.dev/posts) to know more.
+
+Find my new code on the 🗻
